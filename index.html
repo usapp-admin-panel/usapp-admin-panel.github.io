@@ -26,7 +26,7 @@
   <meta name="apple-mobile-web-app-title" content="web_tut">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
-  <title>UsApp</title>
+  <title>web_tut</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -35,7 +35,7 @@
        https://developers.google.com/web/fundamentals/primers/service-workers -->
     
   <script>
-    var serviceWorkerVersion = '2599549128';
+    var serviceWorkerVersion = '2561995990';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -44,7 +44,6 @@
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
       scriptTag.src = 'main.dart.js';
-//       scriptTag.src = 'https://ue-an.github.io/usapp-admin-deploy/';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
